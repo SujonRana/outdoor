@@ -1,0 +1,17 @@
+/* header area start  */
+.header_area{
+    background-image: url(../images/about/services-bg.jpg);
+
+}
+p{
+    text-align: justify;
+    color: rgb(59, 59, 59);
+    padding: 100px;
+}
+span{
+    font-size: 80px;
+    font-weight: 900;
+}
+.header_content_area{
+    padding: 200px 0px 250px;
+}
