@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans',sans-serif;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+a.button{
+    color: white;
+    background-color: #FB2056;
+    padding: 8px 15px;
+    display: inline-block;
+    border-radius: 10px;
+}
+a.button:hover{
+    border-radius: 10px;
+    background-color: #BE0019;
+}
+/* header area start  */
+.header_area{
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 15px 0px 0px 0px;
+    position: relative;
+}
+.overly{      
+    background-color: #040219;
+    opacity: .55;    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.header_area .logo_menu_area{
+    overflow: hidden;
+}
+.header_area .logo_area{
+    width: 25%;
+    float: left;
+}
+.header_area .menu_area{
+    width: 75%;
+    overflow: hidden;
+}
+.header_area .menu_area ul{
+    float: right;
+    margin-top: 9px;
+}
+.header_area .menu_area ul li{
+    float: left;
+    margin-left: 20px;
+}
+.header_area .menu_area ul li a{
+    padding:px 5px ;
+    color: white;
+    font-size: 18px;
+}
+.header_area .menu_area ul li a.active, .header_area .menu_area ul li a:hover{
+    color: #FB2056;
+    display: inline-block;
+}
+.header_area .menu_area ul li a.button{
+    margin-top: -7px;
+}
+.header_area .menu_area ul li a.button:hover{
+    color: white;
+}
+.header_content_area{
+    text-align: center;
+    color: white;
+    padding: 240px 0px 300px;
+}
+.header_content_area h3{
+    font-size: 28px;
+    padding-bottom: 16px;
+}
+.parallex_section hr, .upcoming_section hr, .header_content_area hr{
+    width: 5%;
+    margin: auto;
+    height: 3px;
+    background-color: #FB2056;
+    border: none;
+}
+.header_content_area h2{
+    font-size: 60px;
+    padding:25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+.header_content_area a.button{
+    font-size: 16px;
+}
+/* header css end  */
+.upcoming_section{
+    width: 100%;
+    text-align: center;
+}
+.upcoming_section h2{
+    margin: 50px auto 10px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(24, 24, 24);
+    transition: .5s;
+
+}
+.upcoming_section h2:hover{
+    color: rgb(63, 63, 63);
+
+}
+.upcoming_bottom_section{
+    width: 76%;
+    margin:60px auto;
+}
+.upcoming_bottom_section::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.upcoming_bottom_section .event{
+    float: left;
+    width: 46%;
+    margin: 0px 2%;
+    border-radius: 3px;
+    transition: .3s;
+}
+.upcoming_bottom_section .event:hover{
+    box-shadow:0 0 10px rgba(37, 37, 37, .8);
+    border-radius: 3px;
+}
+.upcoming_bottom_section .event img{
+    width: 100%;
+    border-radius: 3px;
+}
+.upcoming_bottom_section .event h3{
+    font-size: 25px;
+    margin: 20px 0px 6px;
+    color: rgb(31, 31, 31);
+}
+.upcoming_bottom_section .event p{
+    font-size: 17px;
+    color: rgb(66, 66, 66);
+    padding: 5px;
+}
+.upcoming_bottom_section .event a.button{
+  
+    margin: 20px 0px;
+}
+/* upcomming section end  */
+
+/* parallec section start  */
+.parallex_section{
+    background-image: url(../images/section-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallex_section .content_area{
+    padding: 200px 0px;
+    color: white;
+    overflow: hidden;
+    
+
+}
+.parallex_section .content_area .content{
+   width: 50%;
+   float: right;
+    
+}
+.parallex_section .content_area .content h3{
+    font-size: 45px;
+    text-transform: uppercase;
+     
+ }
+ .parallex_section hr{
+     margin: 30px 0px;
+     width: 10%;
+ }
+ .parallex_section .content p{
+    font-size: 18px;
+    padding:20px 0px 50px 0px;
+    max-width: 90%;
+    line-height: 30px;
+     
+ }
