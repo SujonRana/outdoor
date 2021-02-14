@@ -85,8 +85,7 @@ a.button:hover{
 .header_content_area h3{
     font-size: 28px;
     padding-bottom: 16px;
-}
-.parallex_section hr, .upcoming_section hr, .header_content_area hr{
+}.container hr, .parallex_section hr, .upcoming_section hr, .header_content_area hr{
     width: 5%;
     margin: auto;
     height: 3px;
@@ -197,3 +196,105 @@ a.button:hover{
     line-height: 30px;
      
  }
+
+ /* contact form css start  */
+
+.contact-section h1 {
+    color: rgba(21, 23, 62, .7);
+    font-size: 45px;
+    font-weight: bold;
+    margin: 80px 0px 80px 0px;
+    text-align: center;
+}
+.container hr{
+    margin-top: -20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    padding: 0 10px;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+
+.contact-form-text {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    border: 0;
+    background: rgba(133, 133, 133, 0.3);
+    padding: 20px 40px;
+    color: rgba(21, 23, 62, 1);
+    transition: 0.7s;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px .1px #3f4449;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    border: 0;
+    background: #FB2056;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.contact-form-btn:hover {
+    background: #FB2056;
+    color: rgba(21, 23, 62, 1);
+}
+
+/* contact from css end   */
+
+.footer_area {
+    background-color:#2D414A;
+    color: white;
+    width: 100%;
+    height: 200px;
+    margin-top: 92px;
+    text-align: center;
+    padding: 35px 0px;
+}
+
+.socilmedia {
+    width: 100%;
+}
+
+.s_menu {
+    width: 100%;
+}
+
+.s_menu a {
+    font-size: 20px;
+    margin: 15px;
+    display: inline-block;
+    padding: 3px;
+    color: white;
+}
+
+.footer_area .socilmedia a {
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}
+
+.s_menu .animet:hover {
+    color: #FB2056;
+}
+
+.footer_area .socilmedia a:hover {
+    text-shadow: 0 0 13px #FB2056;
+}
