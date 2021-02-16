@@ -2,3 +2,42 @@ body{
     margin: 0px;
     padding: 0px;
 }
+/* header area start  */
+.header_area{
+    background-image: url(../images/project/project-background.jpg);
+}
+.project{
+    overflow: hidden;
+    padding: 70px 0px;
+}
+.project h4{
+    color: rgb(87, 87, 87);
+    font-size: 20px;
+    display: inline-block;
+}
+.project hr{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.project h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(59, 59, 59);
+    padding: 20px 0px;
+}
+.project p{
+    color: rgb(98, 98, 98);
+    padding: 10px 0px 30px 0px;
+    max-width: 60%;
+}
+.project .image .slider{
+    width: 33.33333%;
+    float: left;
+}
+.project .image .slider img{
+    width: 100%;
+    padding-right:5%;
+}
+.project_color{
+    background-color: #F7F7F7;
+}
