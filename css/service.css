@@ -6,3 +6,43 @@ body{
     background-image: url(../images/service/services-bg.jpg);
 
 }
+/* up coming section start  */
+.upcoming_section{
+    padding: 50px 0px;
+}
+.upcoming_section p.service_top_p{
+    padding: 40px 0px 0px 0px;
+
+}
+/* up coming section end */
+
+/* advancher section start  */
+.adventure{
+    background-color: #F7F7F7;
+    padding: 60px 0px;
+    overflow: hidden;
+}
+.adventure .content{
+    width: 50%;
+    float: left;
+    padding: 0px 20px;
+}
+.adventure .content h2{
+    color: rgb(59, 59, 59);
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.adventure .content hr{
+    margin: 0px;
+    width: 15%;
+}
+.adventure .content p{
+    text-align: justify;
+    color: rgb(129, 129, 129);
+    padding: 20px 0px;
+}
+.adventure .content li{
+    color: rgb(95, 95, 95);
+    padding: 5px 0px;
+}
+/* advancher section end  */
