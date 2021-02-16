@@ -41,7 +41,6 @@ a.button:hover{
     position: absolute;
     top: 0px;
     left: 0px;
-
 }
 .header_area .logo_menu_area{
     overflow: hidden;
@@ -97,7 +96,6 @@ a.button:hover{
     padding:25px;
     text-transform: uppercase;
     letter-spacing: 5px;
-
 }
 .header_content_area a.button{
     font-size: 16px;
@@ -114,11 +112,9 @@ a.button:hover{
     text-transform: uppercase;
     color: rgb(24, 24, 24);
     transition: .5s;
-
 }
 .upcoming_section h2:hover{
     color: rgb(63, 63, 63);
-
 }
 .upcoming_bottom_section{
     width: 76%;
@@ -154,8 +150,7 @@ a.button:hover{
     color: rgb(66, 66, 66);
     padding: 5px;
 }
-.upcoming_bottom_section .event a.button{
-  
+.upcoming_bottom_section .event a.button{  
     margin: 20px 0px;
 }
 /* upcomming section end  */
@@ -172,18 +167,14 @@ a.button:hover{
     padding: 200px 0px;
     color: white;
     overflow: hidden;
-    
-
 }
 .parallex_section .content_area .content{
    width: 50%;
-   float: right;
-    
+   float: right;    
 }
 .parallex_section .content_area .content h3{
     font-size: 45px;
-    text-transform: uppercase;
-     
+    text-transform: uppercase;     
  }
  .parallex_section hr{
      margin: 30px 0px;
@@ -193,105 +184,110 @@ a.button:hover{
     font-size: 18px;
     padding:20px 0px 50px 0px;
     max-width: 90%;
-    line-height: 30px;
-     
+    line-height: 30px;     
+ }
+ /* parallex area end  */
+
+ /* up_coming section start  */
+ .upcoming_section{
+     padding: 130px 0px;
+ }
+ .upcoming_section .upcoming_left{
+     width: 30%;
+     float: left;
+ }
+ .upcoming_section .upcoming_right{
+    width: 70%;
+    overflow: hidden;
+}
+.upcoming_section .upcoming_right .image{
+    width: 50%;
+    float: left;
+}
+.upcoming_section .upcoming_right .image img{
+    width: 100%;
+    padding:2% 2% 0% 2%;
+    border-radius: 4%;
+    transition: .3s;
+}
+.upcoming_section .upcoming_right .image img:hover{
+    border-left: 1px solid rgb(88, 88, 88);
+    border-right: 1px solid rgb(88, 88, 88);
+}
+.upcoming_section .upcoming_left{
+    text-align: left;
+    margin-top: 100px;
+}
+.upcoming_section .upcoming_left h2{
+    font-size: 40px;
+    max-width: 100%;
+    text-align: left;
+}
+.upcoming_section .upcoming_left hr{
+   width: 40%;
+   margin:30px 0px;
+
+}
+.upcoming_section .upcoming_left p{
+    width: 95%;
+    margin-bottom: 30px;
+ 
  }
 
- /* contact form css start  */
-
-.contact-section h1 {
-    color: rgba(21, 23, 62, .7);
-    font-size: 45px;
-    font-weight: bold;
-    margin: 80px 0px 30px 0px;
-    text-align: center;
-}
-.contact-form {
-    max-width: 600px;
-    padding: 0 10px;
-    overflow: hidden;
-    margin: auto;
-    text-align: center;
-}
 
 
-.contact-form-text {
-    font-size: 16px;
-    display: block;
+
+
+
+ /* up_coming section end  */
+
+/* footer_area start  */
+.footer_extra{
     width: 100%;
-    margin: 16px 0;
-    border: 0;
-    background: rgba(133, 133, 133, 0.3);
-    padding: 20px 40px;
-    color: rgba(21, 23, 62, 1);
-    transition: 0.7s;
+    height: 15px;
+    background-color: #585858;
 }
-
-.contact-form-text:focus {
-    box-shadow: 0 0 10px .1px #3f4449;
-}
-
-textarea.contact-form-text {
-    resize: none;
-    height: 120px;
-}
-
-.contact-form-btn {
-    border: 0;
-    background: #FB2056;
-    color: #fff;
-    padding: 12px 50px;
-    margin: 30px 0px 10px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.7s;
-}
-
-.contact-form-btn:hover {
-    background: #FB2056;
-    color: rgba(21, 23, 62, 1);
-}
-
-/* contact from css end   */
-
 .footer_area {
-    background-color:#2D414A;
+    background-color:#191919;
     color: white;
     width: 100%;
-    height: 200px;
-    margin-top: 92px;
     text-align: center;
-    padding: 35px 0px;
+    padding: 50px 0px;
 }
-
 .socilmedia {
     width: 100%;
 }
-
 .s_menu {
     width: 100%;
 }
-
 .s_menu a {
-    font-size: 20px;
+    font-size: 15px;
     margin: 15px;
     display: inline-block;
     padding: 3px;
     color: white;
 }
-
 .footer_area .socilmedia a {
-    font-size: 20px;
-    margin: 20px;
+    font-size: 18px;
+    margin:0px 15px;
     display: inline-block;
     font-size: 30px;
     color: white;
 }
-
-.s_menu .animet:hover {
+.s_menu .active, .s_menu a:hover {
     color: #FB2056;
 }
-
 .footer_area .socilmedia a:hover {
     text-shadow: 0 0 13px #FB2056;
 }
+/* extra 2 line css use for fix this(a)/.copy_css in about.css file  */
+footer .copy_write{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #FB2056;
+}
+footer hr{
+    width: 60%;
+    margin: auto;
+}
+/* footer area end  */
