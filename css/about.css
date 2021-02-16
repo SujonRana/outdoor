@@ -5,20 +5,122 @@ body{
 /* header area start  */
 .header_area{
     background-image: url(../images/about/bg.jpg);
-    background-attachment: local;
 }
-p{
+/* header area end  */
+/* who we are section start  */
+.who_we_are_section{
+    overflow: hidden;
+    padding: 120px 0px;
+}
+.who_we_are_section h2{
+    font-size: 50px;
+   text-align: center;
+   margin-bottom: 10px;
+   color: rgb(83, 83, 83);
+}
+.who_we_are_section hr{
+    width: 10%;
+    margin-bottom: 40px;
+}
+.who_we_are_section .who_we_are_left{
+    width: 50%;
+    float: left;
+}
+.who_we_are_section .who_we_are_left img{
+    width: 100%;
+}
+.who_we_are_section .who_we_are_right{
+    width: 50%;
+    overflow: hidden;
+    padding: 0px 20px;
+}
+.who_we_are_section .who_we_are_right h3{
+    font-size: 22px;
+    color: rgb(122, 122, 122);
+    text-align:justify ;
+    padding: 20px 0px;
+}
+.who_we_are_section .who_we_are_right p{
+    color: rgb(131, 131, 131);
+    text-align:justify;
+}
+/* who we are section end  */
+
+/* mission section start  */
+.mission_section{
+    background-color: #F3F9FB;    
+    padding: 90px 0px;
+    overflow: hidden;
+    
+}
+
+.mission_section .part{
+    float: left;
+    width: 33.333333333%;
+    padding: 0px 10px;
+}
+.mission_section .part h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(37, 37, 37);
+}
+.mission_section .part p{
+    color: rgb(107, 106, 106);
+}
+/* mission section end*/
+
+/* team section start  */
+.team_section{
+    padding: 90px 0px;
+    overflow: hidden;
+    text-align: center;
+}
+.team_section .part2{
+    width: 33.3333333%;
+    padding: 0px 2%;
+    float: left;
+}
+.team_section .part2 img{
+    width:100%;
+}
+.team_section .part2 h3{
+    font-size: 25px;
+    padding: 20px 0px 10px;
+    color: rgb(37, 37, 37);
+}
+.team_section .part2 h4{
+    color: rgb(107, 106, 106);
+}
+.team_section .part2 p{
+    color: rgb(138, 136, 136);
     text-align: justify;
-    color: rgb(59, 59, 59);
-    padding: 100px;
+    margin: 15px 0px;
 }
-span{
-    font-size: 80px;
-    font-weight: 900;
+.team_section .part2 .socialicon i{
+ font-size: 30px;
+ color: rgb(98, 98, 98);
+ padding: 10px 10px;
 }
-.header_content_area{
-    padding: 200px 0px 250px;
-}
+/* team section end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Extra use for fixt fooder p in about.html also service project conteent */
 footer .copy_write{
     padding: 0px;
